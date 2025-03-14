@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Two Stage Rocket - MAY WILDGRUBE</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1741979948" title="wsite-theme-css" />
+<link href='http://cdn2.editmysite.com/fonts/Montserrat/font.css?2' rel='stylesheet' type='text/css' />
+
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Quicksand/font.css?2' rel='stylesheet' type='text/css' />
+<link href='http://cdn2.editmysite.com/fonts/Playfair_Display/font.css?2' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Quicksand" !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{font-family:"Quicksand" !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Quicksand" !important;font-weight:400 !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{font-family:"Quicksand" !important;font-weight:700 !important;color:#a1a1a1 !important;text-transform:  uppercase !important;}
+#wsite-title {font-family:"Quicksand" !important;font-weight:700 !important;}
+.wsite-menu-default a {font-family:"Quicksand" !important;font-weight:700 !important;}
+.wsite-menu a {font-family:"Quicksand" !important;font-weight:700 !important;}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Quicksand" !important;font-weight:400 !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {font-family:"Quicksand" !important;font-weight:400 !important;}
+.wsite-button-inner {font-family:"Quicksand" !important;font-weight:700 !important;}
+.wsite-not-footer blockquote {font-family:"Playfair Display" !important;font-weight:400 !important;}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+.wsite-button-small .wsite-button-inner {font-size:16px !important;}
+.wsite-button-large .wsite-button-inner {font-size:16px !important;}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:16px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{font-size:12px !important;}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-size:40px !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{font-size:12px !important;}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {font-size:38px !important;line-height:59px !important;}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+
+		<script src='files/templateArtifacts.js?1727560169'></script>
+<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://cdn2.editmysite.com/js/jquery-1.8.3.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "US";
+			_W.storeCurrency = "USD";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "450963550405252423";
+			com_userID = "139814919";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"864273040228713637","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"784985209691259030","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"971010296894928542","title":"Projects","url":"projects.html","target":"","nav_menu":false,"nonclickable":true},{"id":"706339661881879480","title":"resume","url":"resume.html","target":"","nav_menu":false,"nonclickable":false}],
+			"613505249841801279",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class="header-page  wsite-page-two-stage-rocket  full-width-body-off header-overlay-on alt-nav-off  wsite-theme-light"><div class="wrapper">
+    <div class="birdseye-header">
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="logo"><span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">MAY WILDGRUBE</span>
+	
+	</a>
+
+</span></div>
+          <div class="nav desktop-nav"><ul class="wsite-menu-default">
+		<li id="pg864273040228713637" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg784985209691259030" class="wsite-menu-item-wrap">
+			<a
+						href="about.html"
+				class="wsite-menu-item"
+				>
+				About
+			</a>
+			
+		</li>
+		<li id="pg971010296894928542" class="wsite-menu-item-wrap">
+			<a
+				class="wsite-menu-item"
+				>
+				Projects
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-752337204478460042"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="carm.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			CARM
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-769845595939228126"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="team-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Team Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-613505249841801279"
+	class="wsite-menu-subitem-wrap wsite-nav-current"
+	>
+	<a
+				href="two-stage-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Two Stage Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-434483193771487254"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="second-battlebot.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Second Battlebot
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-158213872274270332"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="l1-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			L1 Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-414355631167656248"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="battlebot.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Battlebot
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg706339661881879480" class="wsite-menu-item-wrap">
+			<a
+						href="resume.html"
+				class="wsite-menu-item"
+				>
+				resume
+			</a>
+			
+		</li>
+</ul>
+</div>
+          <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner-wrap">
+      <div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-image" style="background-image: url(&quot;/uploads/1/3/9/8/139814919/background-images/1243736609.jpeg&quot;) ;background-repeat: no-repeat ;background-position: 50.00% 13.71% ;background-size: 100% ;background-color: transparent ;background-size: cover;" >
+		<div class="wsite-section-content">
+			
+          <div class="container">
+            <div class="banner">
+				<div class="wsite-section-elements">
+					<h2 class="wsite-content-title">2 Stage Rocket</h2>
+				</div>
+			</div>
+          </div>
+      
+		</div>
+		<div class=""></div>
+	</div>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="main-wrap">
+      <div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-25"  >
+		<div class="wsite-section-content">
+          <div class="container">
+			<div class="wsite-section-elements">
+				<div class="paragraph">*Note: This project is a work in progress, and will be updated as I go along</div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Overview</h2>
+
+<div class="paragraph" style="text-align:justify;"><font color="#000000" size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font>Instead of rebuilding the same rocket for my L2 certification over again, I decided it would be more fun and technically interesting to start working on a staged rocket instead, and launched the first stage test as my L2 certification<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 1:&nbsp;&#8203;Design</h2>
+
+<div class="paragraph" style="text-align:justify;"><font color="#000000" size="3">&nbsp; &nbsp; &nbsp; &nbsp;</font><span>This in part came because I wanted to keep my L2 certification under a certain altitude and, instead of making it heavier, found that I could also add a second set of fins. I decided that instead of rebuilding&nbsp;a simple rocket just to get a certification, I would integrate my L2 certification launch into a test launch for a 2 stage rocket. For this: I designed a rocket with an upper stage connected&nbsp;to another tube with a coupler.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;The one design change I made was to adjust the top fin assembly&nbsp;to allow airflow when there was no motor in it. I reduced the area of each centering ring and made holes in the bulkhead to allow for airflow to get through. When I launch as a 2 stage, all I have to do is add a thrust plate to the upper stage and it will work as my other rockets</span><br /><br /></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0px;margin-right:0px;text-align:center">
+<a>
+<img src="uploads/1/3/9/8/139814919/2stage-design_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%">Initial design of the rocket</div>
+</div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 2: Building</h2>
+
+<div class="paragraph" style="text-align:justify;"><font color="#000000"><font size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For this rocket, I used simple manufacturing&nbsp;methods to build it. I used my typical process for cutting out the fins of using a laser cutter and then epoxying together the assembly. For the nosecone, I used the same design I have used for my previous rockets with a 2 part 3d printed nosecone that screws together. I then cut fin slits in the side with a handsaw and box cutters, and drilled holes for the coupler with a drill and connected the parts screws. Overall, for the first airframe test, I opted for a simple rocket.</font></font></div>
+
+<div><div style="height: 20px; overflow: hidden;"></div>
+				<div id='126346876192225173-gallery' class='imageGallery' style='line-height: 0px; padding: 0; margin: 0'>
+<div id='126346876192225173-imageContainer0' style='float:left;width:49.95%;margin:0;'><div id='126346876192225173-insideImageContainer0' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/70362780374-75e53b39-3e7b-48d6-801e-cac9b4c1d265_orig.jpg' rel='lightbox[gallery126346876192225173]' title='Some lessons were learned the hard way'><img src='uploads/1/3/9/8/139814919/70362780374-75e53b39-3e7b-48d6-801e-cac9b4c1d265.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>Some lessons were learned the hard way</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='126346876192225173-imageContainer1' style='float:left;width:49.95%;margin:0;'><div id='126346876192225173-insideImageContainer1' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/70362228678-ae07eea8-a12a-4f83-8c49-62ca532670d7_orig.jpg' rel='lightbox[gallery126346876192225173]' title='The new design for the upper fin assembly centering rings that allowed airflow for testing with one motor'><img src='uploads/1/3/9/8/139814919/70362228678-ae07eea8-a12a-4f83-8c49-62ca532670d7.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>The new design for the upper fin assembly centering rings that allowed airflow for testing with one motor</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='126346876192225173-imageContainer2' style='float:left;width:49.95%;margin:0;'><div id='126346876192225173-insideImageContainer2' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-1140_orig.jpg' rel='lightbox[gallery126346876192225173]' title='Pre-painted rocket'><img src='uploads/1/3/9/8/139814919/img-1140.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>Pre-painted rocket</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='126346876192225173-imageContainer3' style='float:left;width:49.95%;margin:0;'><div id='126346876192225173-insideImageContainer3' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/70362453804-8fc46756-d428-40a7-a367-cc79466cc36f_orig.jpg' rel='lightbox[gallery126346876192225173]' title='Top fin assembly'><img src='uploads/1/3/9/8/139814919/70362453804-8fc46756-d428-40a7-a367-cc79466cc36f.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>Top fin assembly</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><span style='display: block; clear: both; height: 0px; overflow: hidden;'></span>
+</div>
+
+				<div style="height: 20px; overflow: hidden;"></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 3: Airframe Test</h2>
+
+<div class="paragraph" style="text-align:justify;"><font color="#000000"><font size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Unfortunately, the airframe test did not go as planned. During launch, the fins on the bottom ended up being too large and snapped due to fin flutter. The rest of the rocket went up as normal, and the parachute deployed as normal.&nbsp;</font></font></div>
+
+<div><div style="height: 20px; overflow: hidden;"></div>
+				<div id='256295512387030625-gallery' class='imageGallery' style='line-height: 0px; padding: 0; margin: 0'>
+<div id='256295512387030625-imageContainer0' style='float:left;width:49.95%;margin:0;'><div id='256295512387030625-insideImageContainer0' style='position:relative;margin:5px;'><div class='galleryImageHolder' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/70991593552-162e2f6c-cfcd-4955-9187-00140ed2c52b_orig.jpg' rel='lightbox[gallery256295512387030625]'><img src='uploads/1/3/9/8/139814919/70991593552-162e2f6c-cfcd-4955-9187-00140ed2c52b.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /></a></div></div></div></div><div id='256295512387030625-imageContainer1' style='float:left;width:49.95%;margin:0;'><div id='256295512387030625-insideImageContainer1' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-3896_orig.jpg' rel='lightbox[gallery256295512387030625]' title='broken fin tips'><img src='uploads/1/3/9/8/139814919/img-3896.jpg' class='galleryImage' _width='800' _height='800' style='position:absolute;border:0;width:100%;top:-0%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>broken fin tips</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><span style='display: block; clear: both; height: 0px; overflow: hidden;'></span>
+</div>
+
+				<div style="height: 20px; overflow: hidden;"></div></div>
+
+<div class="wsite-youtube" style="margin-bottom:10px;margin-top:10px;"><div class="wsite-youtube-wrapper wsite-youtube-size-auto wsite-youtube-align-center">
+<div class="wsite-youtube-container">
+
+<iframe src="http://www.youtube.com/embed/t8fXrwigltg?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+</div>
+</div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 4: Composite Rebuild</h2>
+
+<div class="paragraph"><font color="#000000" size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; To remedy&nbsp;the fin situation, I decided to remake the fins out of composites. I decided that I would use my school's composite lab to make them from scratch.&nbsp;</font><br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The first idea was to make them our of pure carbon fiber. After making a test article, I discovered two flaws with this decision. First, it was hard to get the fin into the correct shape. The fibers would keep slipping, making the resultant fin very out of shape. Second, the amount of layers needed to make a fin as large as I wanted was too, and would take far too long of a time to manufacture. To remedy this, I decided to use wood as a core for mine.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;To do this, I cut out layers of carbon weave. I then layered small amounts of epoxy on both sides of the wood core, then layered on the carbon fiber before putting more epoxy on the outside under a fume hood. Then, with 3 layers of supporting material around it, I vacuum bagged the parts and waiting overnight. To get rid of excess material, I used a Dremel over a downdraft table to make sure I didn't inhale toxic dust</div>
+
+<div><div style="height: 20px; overflow: hidden;"></div>
+				<div id='908306362154896254-gallery' class='imageGallery' style='line-height: 0px; padding: 0; margin: 0'>
+<div id='908306362154896254-imageContainer0' style='float:left;width:49.95%;margin:0;'><div id='908306362154896254-insideImageContainer0' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-4323_orig.jpg' rel='lightbox[gallery908306362154896254]' title='The pure carbon fiber fin and the messed up scale'><img src='uploads/1/3/9/8/139814919/img-4323.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>The pure carbon fiber fin and the messed up scale</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='908306362154896254-imageContainer1' style='float:left;width:49.95%;margin:0;'><div id='908306362154896254-insideImageContainer1' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-4412_orig.jpg' rel='lightbox[gallery908306362154896254]' title='The first wood core fin with minor misalignments'><img src='uploads/1/3/9/8/139814919/img-4412.jpg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>The first wood core fin with minor misalignments</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='908306362154896254-imageContainer2' style='float:left;width:49.95%;margin:0;'><div id='908306362154896254-insideImageContainer2' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-4306_orig.jpg' rel='lightbox[gallery908306362154896254]' title='The fume hood '><img src='uploads/1/3/9/8/139814919/img-4306.jpg' class='galleryImage' _width='800' _height='600' style='position:absolute;border:0;width:133.33%;top:0%;left:-16.67%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>The fume hood </div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><div id='908306362154896254-imageContainer3' style='float:left;width:49.95%;margin:0;'><div id='908306362154896254-insideImageContainer3' style='position:relative;margin:5px;'><div class='galleryImageHolder galleryCaptionHover' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/img-4319_orig.jpg' rel='lightbox[gallery908306362154896254]' title='The vacuum bag'><img src='uploads/1/3/9/8/139814919/img-4319.jpg' class='galleryImage' _width='800' _height='600' style='position:absolute;border:0;width:133.33%;top:0%;left:-16.67%' /><div class='galleryCaptionHolder fullImageGalleryCaption' style=''>
+					<div class='galleryCaptionHolderInnerBg'></div>
+					<div class='galleryCaptionHolderInner'>
+						<div class='galleryCaptionInnerTextHolder'>
+							<div class='galleryCaptionInnerText'>The vacuum bag</div>
+						</div>
+					</div>
+				</div></a></div></div></div></div><span style='display: block; clear: both; height: 0px; overflow: hidden;'></span>
+</div>
+
+				<div style="height: 20px; overflow: hidden;"></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 5: Relaunch</h2>
+
+<div class="paragraph"><font color="#000000" size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;After assembling my new bottom section, I was able to launch my rocket again. This time I had greater success. The increased shear modulus of the fins reduced the risk of fin flutter, and they ended up not fluttering off. The rest of the launch was also successful, and landed only with minor damage to the coupler due to the parachute release getting caught to the chute. To reduce the risk of this in the future, I will redesign the deployment and create a dual deployment&nbsp;system.&nbsp;<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Overall, I was able to get a L2 certification with this success, and was happy with the result.</font><br /></div>
+
+<div><div style="height: 20px; overflow: hidden;"></div>
+				<div id='227062822557077780-gallery' class='imageGallery' style='line-height: 0px; padding: 0; margin: 0'>
+<div id='227062822557077780-imageContainer0' style='float:left;width:49.95%;margin:0;'><div id='227062822557077780-insideImageContainer0' style='position:relative;margin:5px;'><div class='galleryImageHolder' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/pxl-20231028-154143001_orig.jpeg' rel='lightbox[gallery227062822557077780]'><img src='uploads/1/3/9/8/139814919/pxl-20231028-154143001.jpeg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /></a></div></div></div></div><div id='227062822557077780-imageContainer1' style='float:left;width:49.95%;margin:0;'><div id='227062822557077780-insideImageContainer1' style='position:relative;margin:5px;'><div class='galleryImageHolder' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/p1067972-bode-l2-1_orig.jpeg' rel='lightbox[gallery227062822557077780]'><img src='uploads/1/3/9/8/139814919/p1067972-bode-l2-1.jpeg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /></a></div></div></div></div><div id='227062822557077780-imageContainer2' style='float:left;width:49.95%;margin:0;'><div id='227062822557077780-insideImageContainer2' style='position:relative;margin:5px;'><div class='galleryImageHolder' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/gx010604-1698592871873_orig.jpeg' rel='lightbox[gallery227062822557077780]'><img src='uploads/1/3/9/8/139814919/gx010604-1698592871873.jpeg' class='galleryImage' _width='800' _height='450' style='position:absolute;border:0;width:177.78%;top:0%;left:-38.89%' /></a></div></div></div></div><div id='227062822557077780-imageContainer3' style='float:left;width:49.95%;margin:0;'><div id='227062822557077780-insideImageContainer3' style='position:relative;margin:5px;'><div class='galleryImageHolder' style='position:relative; width:100%; padding:0 0 100%;overflow:hidden;'><div class='galleryInnerImageHolder'><a href='uploads/1/3/9/8/139814919/p1067973-bode-l2-2_orig.jpeg' rel='lightbox[gallery227062822557077780]'><img src='uploads/1/3/9/8/139814919/p1067973-bode-l2-2.jpeg' class='galleryImage' _width='600' _height='800' style='position:absolute;border:0;width:100%;top:-16.67%;left:0%' /></a></div></div></div></div><span style='display: block; clear: both; height: 0px; overflow: hidden;'></span>
+</div>
+
+				<div style="height: 20px; overflow: hidden;"></div></div>
+
+<div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
+<hr class="styled-hr" style="width:100%;"></hr>
+<div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
+
+<h2 class="wsite-content-title" style="text-align:center;">Part 6: Next Steps</h2>
+
+<div class="paragraph"><font color="#000000" size="3">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Now that the airframe has been proven to work together, I will now work towards the staging electronics. For the next flights, I plan on designing a telemetry system that will stage the rocket and light the new motor given that the rocket is within a acceptable range of velocity and angular orientation after the first stage. I will also add a dual deployment&nbsp;system on this electronics&nbsp;suite. Significant&nbsp;ground testing will be conducted before this is attempted</font></div>
+			</div>
+		</div>
+      </div>
+
+	</div>
+</div>
+
+</div>
+
+    </div>
+
+    <div class="footer-wrap">
+        <div class="footer">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
+    </div><!-- end footer-wrap -->
+  </div><!-- /.wrapper -->
+
+  <div id="navMobile" class="nav mobile-nav">
+    <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+    <ul class="wsite-menu-default">
+    		<li id="pg864273040228713637" class="wsite-menu-item-wrap">
+    			<a
+    						href="index.html"
+    				class="wsite-menu-item"
+    				>
+    				Home
+    			</a>
+    			
+    		</li>
+    		<li id="pg784985209691259030" class="wsite-menu-item-wrap">
+    			<a
+    						href="about.html"
+    				class="wsite-menu-item"
+    				>
+    				About
+    			</a>
+    			
+    		</li>
+    		<li id="pg971010296894928542" class="wsite-menu-item-wrap">
+    			<a
+    				class="wsite-menu-item"
+    				>
+    				Projects
+    			</a>
+    			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-752337204478460042"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="carm.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			CARM
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-769845595939228126"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="team-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Team Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-613505249841801279"
+	class="wsite-menu-subitem-wrap wsite-nav-current"
+	>
+	<a
+				href="two-stage-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Two Stage Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-434483193771487254"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="second-battlebot.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Second Battlebot
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-158213872274270332"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="l1-rocket.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			L1 Rocket
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-414355631167656248"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="battlebot.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Battlebot
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+    		</li>
+    		<li id="pg706339661881879480" class="wsite-menu-item-wrap">
+    			<a
+    						href="resume.html"
+    				class="wsite-menu-item"
+    				>
+    				resume
+    			</a>
+    			
+    		</li>
+    </ul>
+  </div>
+
+	<script type="text/javascript" src="files/theme/plugins.js"></script>
+  <script type="text/javascript" src="files/theme/custom.js"></script>
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		
+	</body>
+</html>
