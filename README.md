@@ -1,2 +1,3 @@
-# portfolio_new
-Redone portfolio for May Wildgrube
+# Portfolio
+
+Ported from May's old portfolio on Weebly to be a custom one
